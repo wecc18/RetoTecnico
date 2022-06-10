@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:#ACCCFD;
+
+	/*background:#88D2FF;*/
+	}
+A:link {background: #FFF; text-decoration: none}
+A:visited {background: #FFF; text-decoration: none}
+A:active {background: #FFF; text-decoration: none}
+A:hover {background: #FFF; font-weight:bold; color: blue;}
+@font-face{
+    font-family: fuente1;
+    src: url('../font/Sansation_Bold.eot'),url('../font/Sansation_Bold.ttf');
+}
+
+#general{
+	font-family:fuente1;
+	font-weight:bold;
+	font-style: normal;
+	width:100%;
+	height:100%;
+    min-height: 650px;
+	min-width: 900px;
+    margin: 5px auto;
+    background: white;
+    border: 1px #404040 solid;
+	/*Forma general de boder radius - Bordes curvos*/
+    border-radius: 10px;
+    /*Forma para mozilla*/
+    -moz-border-radius: 10px;
+    /*Forma para chrome*/
+    -webkit-border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    /*Forma para mozilla*/
+    -moz-box-shadow: 0px 0px 10px black;
+    /*Forma para chrome*/
+    -webkit-box-shadow: 0px 0px 10px black;
+	}
+
+#top{
+	margin-bottom:10px;
+	}
+
+#cabecera{
+	font-family:fuente1;
+	font-weight:bold;
+	color:#FFF;
+	width:auto;
+	height:auto;
+	
+	/*border: 1px black solid;*/
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color:#3E3E3E;
+	/*Forma general de boder radius - Bordes curvos*/
+    border-radius: 10px 10px 0px 0px;
+	/*Forma para mozilla*/
+    -moz-border-radius: 10px 10px 0px 0px;
+	/*Forma para chrome*/
+    -webkit-border-radius: 10px 10px 0px 0px;
+	}
+
+#cont_izq, #cont_der{
+	/*Forma general de boder radius - Bordes curvos*/
+    border-radius: 5px;
+    /*Forma para mozilla*/
+    -moz-border-radius: 5px;
+    /*Forma para chrome*/
+    -webkit-border-radius: 5px;
+	border:1px #3DACFE solid;
+	padding-left:5px;
+	padding-right:5px;
+	}
+	
+#cont_izq{
+	float:left;
+	width:200px;
+	height:100%;
+	min-height:400px;
+	max-height:540px;
+	margin-right:5px;
+	margin-left:2px;
+	/*margin-top:-5px; para que quepa el menu en la parte blanca*/
+	background-color:#DBDBDB;
+	}
+#cont_der{
+	width:auto;
+	margin-left:220px;
+	margin-right:2px;
+	margin-bottom:5px;
+	}
+#tab{
+	/*Forma general de boder radius - Bordes curvos*/
+    border-radius: 5px;
+    /*Forma para mozilla*/
+    -moz-border-radius: 5px;
+    /*Forma para chrome*/
+    -webkit-border-radius: 5px;
+	/*Sombras*/
+	box-shadow: 0px 0px 10px black;
+    /*Forma para mozilla*/
+    -moz-box-shadow: 0px 0px 10px black;
+    /*Forma para chrome*/
+    -webkit-box-shadow: 0px 0px 10px black;
+	border:1px #3DACFE solid;
+	/*background-color:#CCC;*/
+	margin-top:5px;
+	}
+	
+.tabla1{
+	background:url(../img/img_menu/chat2mini.png) no-repeat;
+	background-position:left;
+	width:95%;
+	margin-left:1px;
+    box-shadow:2px 2px 8px #000000;
+	border:#666 solid 1px;
+	text-align:right;
+	}
+/*Para que el text area sea fijo*/	
+.textareafija {
+resize:none;
+}	
+
+.textura{
+background:url(../img/textura.png) repeat;
+width:150px;
+height:30px;
+font-family:"Arial Black", Gadget, sans-serif;
+font-weight:bold;
+font-size:16px;
+text-align:center;	
+}
+/* Para centrar el texto en los input*/
+.inputCentrado{
+text-align:center;	
+	}
+
+

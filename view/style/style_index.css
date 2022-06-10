@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+    font-family: fuente1;
+    src: url('../font/Sansation_Bold.eot'),url('../font/Sansation_Bold.ttf');
+}
+
+body{
+	font-family:fuente1;
+	background:#999;
+	/*background:url(../img/logo.png) no-repeat center
+	#999;
+	background-position:center;*/
+	}
+	
+#login, #pass{
+	background:#FFF;
+	position:absolute;
+	width:600px;
+	height:200px;
+	left:50%;
+	margin-left:-300px;
+	top:50%;
+	margin-top:-100px;
+	padding-left:10px;
+	padding-top:10px;
+	border: 1px #404040 solid;
+	/*Forma general de boder radius - Bordes curvos*/
+    border-radius: 10px;
+    /*Forma para mozilla*/
+    -moz-border-radius: 10px;
+    /*Forma para chrome*/
+    -webkit-border-radius: 10px;
+    box-shadow: 0px 0px 50px black;
+    /*Forma para mozilla*/
+    -moz-box-shadow: 0px 0px 50px black;
+    /*Forma para chrome*/
+    -webkit-box-shadow: 0px 0px 50px black;
+	}
+#logo{
+	background:url(../img/logo-sofkau.png) no-repeat;
+	background-position:center;
+	width:10px;
+	height:50%;
+	}
